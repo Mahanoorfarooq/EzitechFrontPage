@@ -1,0 +1,142 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Top Bar Styling */
+.navbar .top-bar {
+  background-color: #3275db;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.navbar .top-bar span {
+  margin-right: 20px;
+}
+
+.navbar .top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navbar .top-bar a i {
+  font-size: 20px;
+}
+
+.navbar .top-bar .btn {
+  display: flex;
+  gap: 10px;
+}
+
+/* Main Navigation Bar */
+.navbar .bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: rgba(4, 45, 137, 0.85);
+}
+
+.navbar .bar .logo img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar .bar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar .bar ul li {
+  margin: 0;
+}
+
+.navbar .bar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.navbar .bar ul a:hover {
+  color: #18bc9c;
+}
+
+.navbar .bar .btn {
+  display: flex;
+  gap: 10px;
+}
+
+.banner {
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.banner .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.banner .search input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+}
+
+.banner .search input::placeholder {
+  color: #999;
+}
+
+
+
+.banner h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.banner .tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.banner .tabs a {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px 20px;
+}
